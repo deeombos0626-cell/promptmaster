@@ -179,3 +179,4 @@ Users have reported:
 ---
 
 **Start mastering AI prompting today!** Visit the live application and begin your journey to better AI interactions.
+
