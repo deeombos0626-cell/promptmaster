@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptMaster - Master AI Prompting Techniques</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <i class="fas fa-magic"></i>
+                        <h1>PromptMaster</h1>
+                    </div>
+                    <nav class="nav">
+                        <a href="#techniques" class="nav-link">Techniques</a>
+                        <a href="#builder" class="nav-link">Prompt Builder</a>
+                        <a href="#examples" class="nav-link">Examples</a>
+                        <a href="#help" class="nav-link">Help</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Master AI Prompting with Proven Techniques</h2>
+                    <p>Learn and apply 13 powerful prompting strategies to get better results from AI assistants like ChatGPT, Claude, and Gemini.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" onclick="scrollToSection('techniques')">
+                            <i class="fas fa-play"></i>
+                            Start Learning
+                        </button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('builder')">
+                            <i class="fas fa-tools"></i>
+                            Build Prompts
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Techniques Section -->
+        <section id="techniques" class="techniques">
+            <div class="container">
+                <h2 class="section-title">Prompting Techniques</h2>
+                <div class="techniques-grid" id="techniquesGrid">
+                    <!-- Techniques will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Prompt Builder Section -->
+        <section id="builder" class="builder">
+            <div class="container">
+                <h2 class="section-title">Interactive Prompt Builder</h2>
+                <div class="builder-content">
+                    <div class="builder-sidebar">
+                        <h3>Choose a Technique</h3>
+                        <div class="technique-selector" id="techniqueSelector">
+                            <!-- Technique options will be populated by JavaScript -->
+                        </div>
+                        
+                        <div class="builder-options" id="builderOptions">
+                            <!-- Dynamic options based on selected technique -->
+                        </div>
+                    </div>
+                    
+                    <div class="builder-main">
+                        <div class="prompt-editor">
+                            <h3>Your Prompt</h3>
+                            <textarea id="promptTextarea" placeholder="Start building your prompt here..."></textarea>
+                            <div class="editor-actions">
+                                <button class="btn btn-primary" onclick="generatePrompt()">
+                                    <i class="fas fa-magic"></i>
+                                    Generate Prompt
+                                </button>
+                                <button class="btn btn-secondary" onclick="clearPrompt()">
+                                    <i class="fas fa-trash"></i>
+                                    Clear
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="prompt-preview">
+                            <h3>Preview</h3>
+                            <div class="preview-content" id="previewContent">
+                                <p class="preview-placeholder">Your generated prompt will appear here...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Examples Section -->
+        <section id="examples" class="examples">
+            <div class="container">
+                <h2 class="section-title">Real-World Examples</h2>
+                <div class="examples-grid" id="examplesGrid">
+                    <!-- Examples will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Help Section -->
+        <section id="help" class="help">
+            <div class="container">
+                <h2 class="section-title">Getting Started</h2>
+                <div class="help-content">
+                    <div class="help-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Choose Your Technique</h3>
+                        <p>Browse through 13 proven prompting techniques, each designed for specific use cases and scenarios.</p>
+                    </div>
+                    <div class="help-card">
+                        <i class="fas fa-tools"></i>
+                        <h3>Build Your Prompt</h3>
+                        <p>Use our interactive builder to create custom prompts based on the techniques that work best for your needs.</p>
+                    </div>
+                    <div class="help-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Get Better Results</h3>
+                        <p>Apply these techniques with AI assistants to get more accurate, relevant, and useful responses.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2024 PromptMaster. Master the art of AI prompting.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Technique Modal -->
+    <div id="techniqueModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
