@@ -4,7 +4,7 @@ A comprehensive web application that helps users master 13 proven AI prompting t
 
 ## 🚀 Live Demo
 
-Visit the live application: [https://yourusername.github.io/promptmaster](https://deeombos0626-cell.github.io/promptmaster)
+Visit the live application: (https://deeombos0626-cell.github.io/promptmaster)
 
 ## 📚 Features
 
@@ -67,7 +67,7 @@ Simply visit the live application and start using it immediately.
 ### Option 3: Deploy Your Own
 1. Fork this repository
 2. Enable GitHub Pages in your repository settings
-3. Your app will be available at `https://yourusername.github.io/promptmaster`
+3. Your app will be available at `https://deeombos0626-cell.github.io/promptmaster`
 
 ## 📖 How to Use
 
@@ -179,5 +179,6 @@ Users have reported:
 ---
 
 **Start mastering AI prompting today!** Visit the live application and begin your journey to better AI interactions.
+
 
 
