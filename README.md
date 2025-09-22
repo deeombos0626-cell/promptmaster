@@ -4,7 +4,7 @@ A comprehensive web application that helps users master 13 proven AI prompting t
 
 ## 🚀 Live Demo
 
-Visit the live application: [https://yourusername.github.io/promptmaster](https://yourusername.github.io/promptmaster)
+Visit the live application: [https://yourusername.github.io/promptmaster](https://deeombos0626-cell.github.io/promptmaster)
 
 ## 📚 Features
 
@@ -179,4 +179,5 @@ Users have reported:
 ---
 
 **Start mastering AI prompting today!** Visit the live application and begin your journey to better AI interactions.
+
 
